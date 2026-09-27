@@ -1,0 +1,83 @@
+// ============================================================
+//  SHAIKON Engineering — Global Styles
+//  All previously inline / internal styles are consolidated here.
+//  Design tokens (colors, fonts, radii) live in assets/tailwind.config.js
+//  and are applied through Tailwind utility classes in the markup.
+// ============================================================
+
+// ---- Base reset (moved from the per-page internal <style> block) ----
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overscroll-behavior: none;
+  font-family: "Poppins", sans-serif !important;
+}
+
+main {
+  > :first-child {
+    margin-top: 0 !important;
+  }
+
+  > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+// ---- Hero / section background images (moved from inline background-image) ----
+.bg-image-1 {
+  background-image: url("assets/images/img-02.jpg");
+}
+
+.bg-image-2 {
+  background-image: url("assets/images/img-03.jpg");
+}
+
+.bg-image-3 {
+  background-image: url("assets/images/img-27.jpg");
+}
+
+.bg-image-4 {
+  background-image: url("assets/images/img-40.png");
+}
+
+.bg-image-5 {
+  background-image: url("assets/images/img-43.png");
+}
+
+// ---- Decorative dot-grid patterns (moved from inline background-image) ----
+.dot-grid-6 {
+  background-image: radial-gradient(circle, #ffffff 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dot-grid-8 {
+  background-image: radial-gradient(circle at 1px 1px, #0b1c30 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+// ---- Carousel initial stacking order (moved from inline z-index) ----
+.z-layer-0 {
+  z-index: 0;
+}
+
+.z-layer-10 {
+  z-index: 10;
+}
+
+// ---- FAQ accordion icon initial rotation (moved from inline transform) ----
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shaikon-engineering-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SHAIKON Engineering static website — externalized styles (styles.scss), local assets and multi-page routing.",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "start": "python3 -m http.server 3000",
+    "build:css": "npx --yes sass styles.scss styles.css --no-source-map --style=expanded"
+  }
+}

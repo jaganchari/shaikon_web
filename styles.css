@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+main > :first-child {
+  margin-top: 0 !important;
+}
+main > :last-child {
+  margin-bottom: 0 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-image-1 {
+  background-image: url("assets/images/img-02.jpg");
+}
+
+.bg-image-2 {
+  background-image: url("assets/images/img-03.jpg");
+}
+
+.bg-image-3 {
+  background-image: url("assets/images/img-27.jpg");
+}
+
+.bg-image-4 {
+  background-image: url("assets/images/img-40.png");
+}
+
+.bg-image-5 {
+  background-image: url("assets/images/img-43.png");
+}
+
+.dot-grid-6 {
+  background-image: radial-gradient(circle, #ffffff 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dot-grid-8 {
+  background-image: radial-gradient(circle at 1px 1px, #0b1c30 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.z-layer-0 {
+  z-index: 0;
+}
+
+.z-layer-10 {
+  z-index: 10;
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

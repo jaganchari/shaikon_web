@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="web_standard" name="shell-type">
+  <title>SHAIKON Engineering Company</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/tailwind.config.js"></script>
+</head>
+
+<body class="bg-surface  text-on-surface antialiased transition-colors duration-200">
+  <header
+    class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant">
+    <div class="bg-primary-container text-on-primary py-1 px-4 lg:px-12 border-b border-primary/20 text-xs">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-1">
+        <div class="flex items-center gap-3 overflow-hidden text-ellipsis whitespace-nowrap"><span
+            class="inline-flex items-center font-label-technical text-label-technical tracking-wider text-secondary-fixed"><span
+              class="w-1.5 h-1.5 rounded-full bg-secondary-container inline-block mr-1.5"></span>CERTIFIED
+            SPECIFICATION</span><span class="text-outline-variant hidden sm:inline">|</span><span
+            class="font-label-technical text-label-technical text-surface-container-highest tracking-normal truncate">ISO
+            9001:2015 • ISO 14001 • ISO 45001 • Global Procurement &amp; High-Pressure Valve Manufacturing</span></div>
+        <div class="flex items-center gap-4 font-label-technical text-label-technical text-surface-container-high"><span
+            class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">call</span>MUMBAI HQ:
+            +91 22 6890-4100</span><span class="text-outline-variant hidden sm:inline">|</span><span
+            class="flex items-center gap-1"><span
+              class="material-symbols-outlined text-[14px]">mail</span>trade@shaikon-eng.com</span></div>
+      </div>
+    </div>
+    <div class="h-20 max-w-7xl mx-auto px-4 lg:px-12 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-4 flex-shrink-0"><a class="flex items-center gap-3" data-path="home"
+          href="index.html"><img class="h-10 w-auto object-contain" src="assets/images/img-38.png" alt="SHAIKON">
+          <div class="flex flex-col"><span
+              class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold leading-tight">SHAIKON</span><span
+              class="font-label-technical text-label-technical tracking-widest text-outline uppercase">Engineering
+              Co.</span></div>
+        </a></div>
+      <nav class="hidden lg:flex items-center gap-6 h-full"
+        data-active-classes="text-primary font-bold border-b-2 border-secondary-container"><a
+          class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-2 flex items-center whitespace-nowrap"
+          data-path="home" href="index.html">Home</a><a aria-current="page"
+          class="font-label-lg text-label-lg uppercase tracking-wider transition-colors py-2 flex items-center text-primary font-bold border-b-2 border-secondary-container whitespace-nowrap"
+          data-path="about-us" href="about.html">About Us</a><a
+          class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-2 flex items-center whitespace-nowrap"
+          data-path="products" href="products.html">Products</a><a
+          class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-2 flex items-center whitespace-nowrap"
+          data-path="trading" href="trading.html">Trading</a><a
+          class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-2 flex items-center whitespace-nowrap"
+          data-path="applications" href="applications.html">Applications</a><a
+          class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-2 flex items-center whitespace-nowrap"
+          data-path="contact-us" href="contact.html">Contact Us</a></nav>
+      <div class="flex items-center gap-3"><button id="theme-toggle-btn" type="button" aria-label="Toggle theme"
+          title="Switch to Dark / Light theme"
+          class="w-9 h-9 rounded-lg border border-outline-variant bg-surface-container-lowest text-on-surface hover:bg-surface-container flex items-center justify-center transition-colors"><span
+            class="material-symbols-outlined text-[20px] text-secondary">light_mode</span></button><a
+          class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-outline-variant bg-surface-container-lowest text-on-surface hover:bg-surface-container text-xs font-label-md uppercase tracking-wider font-semibold transition-all"
+          data-path="catalogue" href="products.html"><span
+            class="material-symbols-outlined text-[16px]">description</span>Catalogue</a><a
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-secondary-container text-on-primary font-label-md text-label-md uppercase tracking-wider font-bold shadow-sm hover:bg-secondary transition-colors"
+          data-path="request-a-quote" href="contact.html"><span
+            class="material-symbols-outlined text-[16px]">request_quote</span>Quote</a>
+      </div>
+    </div>
+  </header>
+  <main class="w-full pt-28 bg-surface min-h-[calc(100vh-280px)]">
+    <div class="flex flex-col w-full">
+      <!-- ARCHITECTURAL HERO & MISSION STATEMENT -->
+      <section
+        class="relative w-full bg-surface-container-lowest dark:bg-slate-900 transition-colors duration-200 overflow-hidden">
+        <!-- Subtle Blueprint Metric Grid Overlay -->
+        <div class="absolute inset-0 opacity-[0.035] dark:opacity-[0.06] pointer-events-none dot-grid-8"></div>
+        <div class="max-w-7xl mx-auto px-4 lg:px-12 pt-8 pb-16 relative">
+          <!-- Breadcrumb & System Telemetry Header -->
+          <div class="flex flex-wrap items-center justify-between gap-4 pb-8">
+            <div class="flex items-center gap-3">
+              <span
+                class="font-label-technical text-label-technical uppercase tracking-widest text-secondary font-bold flex items-center gap-1.5">
+                <span class="inline-block w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                GLOBAL OPERATING DOSSIER
+              </span>
+              <span class="text-outline-variant font-label-technical">/</span>
+              <span
+                class="font-label-technical text-label-technical text-on-surface-variant dark:text-slate-400">CORPORATE
+                PROFILE</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span
+                class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container dark:bg-slate-800 text-on-surface dark:text-slate-200 font-label-technical text-label-technical">
+                <span class="material-symbols-outlined text-[14px] text-secondary">verified_user</span>
+                MUMBAI HQ • REG: MH-400093
+              </span>
+              <span
+                class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-high dark:bg-slate-800 text-on-surface dark:text-slate-300 font-label-technical text-label-technical">
+                STANDARDS: API • ASME • DIN • ISO
+              </span>
+            </div>
+          </div>
+          <!-- Main Split Hero Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            <!-- Left Column: Precise Editorial Statement -->
+            <div class="lg:col-span-7 flex flex-col justify-between space-y-6">
+              <div class="space-y-4">
+                <div
+                  class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container dark:bg-slate-800 text-primary dark:text-primary-fixed font-label-technical text-label-technical tracking-wider uppercase font-semibold">
+                  <span class="material-symbols-outlined text-[15px] text-secondary">precision_manufacturing</span>
+                  Precision Flow Engineering &amp; Global Trade
+                </div>
+                <h1
+                  class="font-headline-lg text-headline-lg text-on-surface dark:text-slate-100 tracking-tight leading-none uppercase">
+                  SHAIKON Engineering Company
+                </h1>
+                <p class="font-headline-sm text-headline-sm text-on-surface-variant dark:text-slate-300 font-medium">
+                  Worldwide enterprise specializing in technology development, valve manufacturing, and trading, with a
+                  comprehensive integration of R&amp;D, production, marketing, and service.
+                </p>
+              </div>
+              <!-- Exact Corporate Statement Container -->
+              <div class="p-6 rounded-xl bg-surface-container-low dark:bg-slate-800/90 shadow-sm space-y-4 relative">
+                <div class="w-12 h-1 rounded bg-secondary mb-2"></div>
+                <p class=" text-body-md text-on-surface dark:text-slate-200 leading-relaxed">
+                  SHAIKON Engineering Company is a worldwide enterprise specializing in technology development, valve
+                  manufacturing, and trading, with a comprehensive integration of R&amp;D, production, marketing, and
+                  service. The company's headquarters is situated in Mumbai, India. SHAIKON has obtained certifications
+                  for ISO9001, ISO14001, and ISO45001, and collaborates with internationally recognized TPI agencies
+                  based on customer needs.
+                </p>
+                <p class=" text-body-md text-on-surface dark:text-slate-200 leading-relaxed">
+                  The products offered by the company are extensively utilized in sectors such as petroleum, natural
+                  gas, chemicals, and electric power, and are exported worldwide, fostering a strong connection that
+                  enables us to serve our customers more efficiently.
+                </p>
+                <p class=" text-body-md text-on-surface dark:text-slate-200 leading-relaxed">
+                  Established with the aim of delivering solutions and prioritizing customer service as the foundation
+                  of our management philosophy, we strive to enhance the core competitiveness of our products.
+                </p>
+                <div class="pt-2">
+                  <p
+                    class="font-headline-sm text-headline-sm font-semibold text-primary dark:text-primary-fixed italic">
+                    “We are committed to maintaining a consistent global standard of product quality at SHAIKON
+                    Engineering.”
+                  </p>
+                </div>
+              </div>
+              <!-- Quick Metrics Bar -->
+              <div class="grid grid-cols-3 gap-3 pt-2">
+                <div class="p-4 rounded-lg bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col">
+                  <span
+                    class="font-display-hero text-headline-lg font-bold text-on-surface dark:text-slate-100">45+</span>
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-on-surface-variant dark:text-slate-400">Export
+                    Nations</span>
+                </div>
+                <div class="p-4 rounded-lg bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col">
+                  <span class="font-display-hero text-headline-lg font-bold text-secondary">100%</span>
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-on-surface-variant dark:text-slate-400">TPI
+                    Hydro Testing</span>
+                </div>
+                <div class="p-4 rounded-lg bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col">
+                  <span class="font-display-hero text-headline-lg font-bold text-on-surface dark:text-slate-100">Class
+                    2500</span>
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-on-surface-variant dark:text-slate-400">Max
+                    Pressure Rating</span>
+                </div>
+              </div>
+            </div>
+            <!-- Right Column: Visual Facility Showcase Inspired by Architecture & Blueprint Rigor -->
+            <div class="lg:col-span-5 flex flex-col gap-4">
+              <div class="relative w-full h-80 lg:h-96 rounded-xl overflow-hidden shadow-md">
+                <img class="w-full h-full object-cover"
+                  data-alt="Ultra-modern clean industrial engineering facility with massive high-pressure valve manifold systems, stainless steel polished piping, control console terminals, sunlit architectural glass rooftop overlooking solar wind farm, crisp bright architectural morning sunlight, heavy precision manufacturing aesthetic in deep navy, polished chrome, and warm amber accents"
+                  src="assets/images/img-39.jpg">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex flex-col justify-end p-6 text-on-primary">
+                  <span
+                    class="font-label-technical text-label-technical tracking-widest text-secondary-container uppercase">Main
+                    Production Works</span>
+                  <h3 class="font-headline-sm text-headline-sm font-bold tracking-tight">Advanced Flow Dynamics &amp;
+                    Cryogenic Assembly Center</h3>
+                  <p class="font-body-sm text-body-sm text-surface-container-high text-sm mt-1">High-pressure
+                    hydrostatic chambers capable of ANSI Class 1500–2500 validation.</p>
+                </div>
+              </div>
+              <!-- Real-time Quality Telemetry Card -->
+              <div class="p-5 rounded-xl bg-surface-container dark:bg-slate-800 shadow-sm flex flex-col gap-3">
+                <div class="flex items-center justify-between">
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-on-surface-variant dark:text-slate-400 font-bold">Calibration
+                    &amp; Traceability Index</span>
+                  <span
+                    class="inline-flex items-center gap-1 font-label-technical text-label-technical text-secondary uppercase font-semibold">
+                    <span class="w-2 h-2 rounded-full bg-secondary"></span> EN 10204 3.1 / 3.2
+                  </span>
+                </div>
+                <!-- Inline Mini Architectural Sparkline / SVG QA metric -->
+                <div class="w-full bg-surface-container-lowest dark:bg-slate-900 rounded p-3 shadow-inner">
+                  <div class="flex items-center justify-between text-xs font-label-technical text-outline mb-1">
+                    <span class="">HYDROSTATIC PRESSURE PROFILE [BAR]</span>
+                    <span class="font-bold text-on-surface dark:text-slate-200">MAX 425 BAR HELD</span>
+                  </div>
+                  <svg class="w-full h-12 text-secondary" fill="none" preserveAspectRatio="none" viewBox="0 0 300 40">
+                    <path d="M0,35 L40,32 L80,20 L120,22 L160,8 L200,8 L240,8 L270,12 L300,5" stroke="currentColor"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+                    <path d="M0,35 L40,32 L80,20 L120,22 L160,8 L200,8 L240,8 L270,12 L300,5 L300,40 L0,40 Z"
+                      fill="currentColor" fill-opacity="0.08"></path>
+                  </svg>
+                  <div
+                    class="flex justify-between items-center text-[10px] font-label-technical text-outline mt-1 uppercase">
+                    <span class="">0s Initial Prime</span>
+                    <span class="">Hold Duration: 30 Min</span>
+                    <span class="text-primary dark:text-primary-fixed font-bold">Zero Leakage: Rate A</span>
+                  </div>
+                </div>
+                <div
+                  class="flex items-center justify-between text-xs font-body-sm text-on-surface-variant dark:text-slate-400 pt-1">
+                  <span class="flex items-center gap-1"><span
+                      class="material-symbols-outlined text-[16px] text-secondary">factory</span>MIDC Industrial
+                    Complex, Mumbai</span>
+                  <span
+                    class="font-label-technical text-label-technical uppercase font-bold text-on-surface dark:text-slate-200">TPI
+                    READY</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 4 CORE PILLARS BENTO GRID -->
+      <section class="w-full bg-surface dark:bg-slate-900/60 py-16 transition-colors duration-200">
+        <div class="max-w-7xl mx-auto px-4 lg:px-12">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+            <div>
+              <span
+                class="font-label-technical text-label-technical tracking-widest uppercase text-secondary font-bold">Institutional
+                Structure</span>
+              <h2
+                class="font-headline-lg text-headline-lg uppercase text-on-surface dark:text-slate-100 tracking-tight mt-1">
+                Comprehensive Four-Pillar Architecture
+              </h2>
+            </div>
+            <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-400 max-w-md">
+              Integrating raw material procurement, internal precision machining, and specialized logistics for
+              safety-critical industrial applications worldwide.
+            </p>
+          </div>
+          <!-- Bento Grid Layout -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Pillar 1: R&D Division -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+              <div class="space-y-3">
+                <div
+                  class="w-10 h-10 rounded-lg bg-surface-container dark:bg-slate-700 flex items-center justify-center text-primary dark:text-primary-fixed">
+                  <span class="material-symbols-outlined text-[24px]">biotech</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-secondary font-bold">Pillar
+                    01</span>
+                  <span class="font-label-technical text-label-technical text-outline uppercase">CFD Simulation</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">R&amp;D
+                  Division</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300 leading-normal">
+                  Continuous thermodynamic flow analysis, fugitive emission reduction (ISO 15848-1), and custom
+                  metallurgy development for sour and cryogenic operations.
+                </p>
+              </div>
+              <div class="pt-4 space-y-2">
+                <div class="text-xs font-label-technical text-outline uppercase flex justify-between">
+                  <span class="">FEA Finite Analysis</span>
+                  <span class="text-on-surface dark:text-slate-200 font-bold">99.8% Accuracy</span>
+                </div>
+                <div class="w-full bg-surface-container-high dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-primary-container dark:bg-primary-fixed h-full w-[99%]"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Pillar 2: Precision Manufacturing -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+              <div class="space-y-3">
+                <div
+                  class="w-10 h-10 rounded-lg bg-surface-container dark:bg-slate-700 flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[24px]">precision_manufacturing</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-secondary font-bold">Pillar
+                    02</span>
+                  <span class="font-label-technical text-label-technical text-outline uppercase">Multi-Axis CNC</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Precision
+                  Valve Manufacturing</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300 leading-normal">
+                  In-house forged &amp; cast ball, butterfly, globe, and check valves up to 48-inch nominal bore,
+                  adhering to API 6D, API 600, and ASME B16.34.
+                </p>
+              </div>
+              <div class="pt-4 space-y-2">
+                <div class="text-xs font-label-technical text-outline uppercase flex justify-between">
+                  <span class="">Machining Tolerance</span>
+                  <span class="text-secondary font-bold">± 0.005 mm</span>
+                </div>
+                <div class="w-full bg-surface-container-high dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-secondary h-full w-[95%]"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Pillar 3: Global Trading -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+              <div class="space-y-3">
+                <div
+                  class="w-10 h-10 rounded-lg bg-surface-container dark:bg-slate-700 flex items-center justify-center text-primary dark:text-primary-fixed">
+                  <span class="material-symbols-outlined text-[24px]">language</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-secondary font-bold">Pillar
+                    03</span>
+                  <span class="font-label-technical text-label-technical text-outline uppercase">Raw Materials</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Global
+                  Industrial Trading</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300 leading-normal">
+                  Specialized procurement and stocking of high-alloy pipes, forged flanges, super duplex components, and
+                  exotic alloys with complete heat-number provenance.
+                </p>
+              </div>
+              <div class="pt-4 space-y-2">
+                <div class="text-xs font-label-technical text-outline uppercase flex justify-between">
+                  <span class="">Global Sourcing Hubs</span>
+                  <span class="text-on-surface dark:text-slate-200 font-bold">12 Consignment Nodes</span>
+                </div>
+                <div class="w-full bg-surface-container-high dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-primary-container dark:bg-primary-fixed h-full w-[88%]"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Pillar 4: Customer-Centric Service -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+              <div class="space-y-3">
+                <div
+                  class="w-10 h-10 rounded-lg bg-surface-container dark:bg-slate-700 flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[24px]">support_agent</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span
+                    class="font-label-technical text-label-technical uppercase tracking-wider text-secondary font-bold">Pillar
+                    04</span>
+                  <span class="font-label-technical text-label-technical text-outline uppercase">Site Support</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">
+                  Full-Lifecycle Service</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300 leading-normal">
+                  Dedicated project engineering managers, pre-commissioning pressure verification, emergency turnaround
+                  packages, and field inspection deployment.
+                </p>
+              </div>
+              <div class="pt-4 space-y-2">
+                <div class="text-xs font-label-technical text-outline uppercase flex justify-between">
+                  <span class="">Service Response Guarantee</span>
+                  <span class="text-secondary font-bold">&lt; 24h Global SLA</span>
+                </div>
+                <div class="w-full bg-surface-container-high dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-secondary h-full w-[100%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- QUALITY ACCREDITATIONS & THIRD-PARTY INSPECTION (TPI) ALLIANCE -->
+      <section class="w-full bg-surface-container-low dark:bg-slate-850 py-16 transition-colors duration-200">
+        <div class="max-w-7xl mx-auto px-4 lg:px-12">
+          <!-- Section Header -->
+          <div class="max-w-3xl space-y-3 mb-12">
+            <span
+              class="font-label-technical text-label-technical uppercase tracking-widest text-secondary font-bold">Assurance
+              Protocol</span>
+            <h2 class="font-headline-lg text-headline-lg uppercase text-on-surface dark:text-slate-100 tracking-tight">
+              Triple ISO Certified &amp; TPI Agency Verification
+            </h2>
+            <p class=" text-body-md text-on-surface-variant dark:text-slate-300">
+              SHAIKON maintains certified management frameworks adhering to global safety, environmental, and
+              engineering benchmarks, routinely inspected and audited by world-tier inspection bodies.
+            </p>
+          </div>
+          <!-- Certifications Triad -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <!-- ISO 9001 -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col justify-between">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span
+                    class="inline-flex items-center gap-1 text-secondary font-label-technical text-label-technical font-bold">
+                    <span class="material-symbols-outlined text-[16px]">verified</span> QMS SPECIFICATION
+                  </span>
+                  <span
+                    class="px-2 py-0.5 rounded bg-surface-container dark:bg-slate-700 font-label-technical text-label-technical text-on-surface dark:text-slate-200">VALID
+                    THRU 2026</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md font-bold text-on-surface dark:text-slate-100">ISO
+                  9001:2015</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Quality Management Systems covering design, forging, CNC manufacturing, hydrostatic and
+                  non-destructive testing for industrial fluid equipment.
+                </p>
+              </div>
+              <div class="pt-6 flex items-center gap-3">
+                <span class="material-symbols-outlined text-secondary text-[22px]">workspace_premium</span>
+                <span
+                  class="font-label-technical text-label-technical uppercase text-on-surface-variant dark:text-slate-400">Zero
+                  Critical Non-Conformances</span>
+              </div>
+            </div>
+            <!-- ISO 14001 -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col justify-between">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span
+                    class="inline-flex items-center gap-1 text-secondary font-label-technical text-label-technical font-bold">
+                    <span class="material-symbols-outlined text-[16px]">eco</span> EMS SPECIFICATION
+                  </span>
+                  <span
+                    class="px-2 py-0.5 rounded bg-surface-container dark:bg-slate-700 font-label-technical text-label-technical text-on-surface dark:text-slate-200">VALID
+                    THRU 2026</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md font-bold text-on-surface dark:text-slate-100">ISO
+                  14001:2015</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Environmental Management Standards governing metal recycling, non-toxic coolant utilization, and
+                  minimized carbon emissions across our Mumbai machine floor.
+                </p>
+              </div>
+              <div class="pt-6 flex items-center gap-3">
+                <span class="material-symbols-outlined text-secondary text-[22px]">recycling</span>
+                <span
+                  class="font-label-technical text-label-technical uppercase text-on-surface-variant dark:text-slate-400">Sustainable
+                  Scrap Lifecycle</span>
+              </div>
+            </div>
+            <!-- ISO 45001 -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex flex-col justify-between">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span
+                    class="inline-flex items-center gap-1 text-secondary font-label-technical text-label-technical font-bold">
+                    <span class="material-symbols-outlined text-[16px]">health_and_safety</span> OHSMS SPECIFICATION
+                  </span>
+                  <span
+                    class="px-2 py-0.5 rounded bg-surface-container dark:bg-slate-700 font-label-technical text-label-technical text-on-surface dark:text-slate-200">VALID
+                    THRU 2026</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md font-bold text-on-surface dark:text-slate-100">ISO
+                  45001:2018</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Occupational Health &amp; Safety Systems guaranteeing rigorous worker protection protocols during
+                  high-pressure gas tests and heavy crane maneuvers.
+                </p>
+              </div>
+              <div class="pt-6 flex items-center gap-3">
+                <span class="material-symbols-outlined text-secondary text-[22px]">security</span>
+                <span
+                  class="font-label-technical text-label-technical uppercase text-on-surface-variant dark:text-slate-400">1,850+
+                  Lost-Time Injury Free Days</span>
+              </div>
+            </div>
+          </div>
+          <!-- Recognized Third-Party Inspection Agencies Banner -->
+          <div class="rounded-xl bg-surface-container-lowest dark:bg-slate-800 p-8 shadow-sm">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-6">
+              <div class="space-y-1">
+                <span class="font-label-technical text-label-technical uppercase text-secondary font-bold">Customer
+                  Mandate Collaboration</span>
+                <h4 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Approved
+                  Third-Party Inspection (TPI) Partners</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">Witnessing PMI,
+                  Hydrostatic, Cryogenic, NDT (RT/UT/MPT), and Fire-Safe verification according to project tender specs.
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <span
+                  class="px-3 py-1.5 rounded bg-surface-container dark:bg-slate-700 text-on-surface dark:text-slate-200 font-label-technical text-label-technical uppercase font-bold">EN
+                  10204 Type 3.2 Certified</span>
+              </div>
+            </div>
+            <!-- Agency Cards Matrix -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+              <div
+                class="p-4 rounded-lg bg-surface-container dark:bg-slate-700/60 flex flex-col items-center justify-center text-center gap-2">
+                <span class="material-symbols-outlined text-secondary text-[28px]">shield</span>
+                <span class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">Lloyd's
+                  Register</span>
+                <span class="font-label-technical text-[10px] uppercase text-outline">LRQA Global Verification</span>
+              </div>
+              <div
+                class="p-4 rounded-lg bg-surface-container dark:bg-slate-700/60 flex flex-col items-center justify-center text-center gap-2">
+                <span class="material-symbols-outlined text-secondary text-[28px]">anchor</span>
+                <span class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">DNV GL</span>
+                <span class="font-label-technical text-[10px] uppercase text-outline">Offshore &amp; Marine
+                  Inspection</span>
+              </div>
+              <div
+                class="p-4 rounded-lg bg-surface-container dark:bg-slate-700/60 flex flex-col items-center justify-center text-center gap-2">
+                <span class="material-symbols-outlined text-secondary text-[28px]">domain_verification</span>
+                <span class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">Bureau
+                  Veritas</span>
+                <span class="font-label-technical text-[10px] uppercase text-outline">Energy &amp; Process QA</span>
+              </div>
+              <div
+                class="p-4 rounded-lg bg-surface-container dark:bg-slate-700/60 flex flex-col items-center justify-center text-center gap-2">
+                <span class="material-symbols-outlined text-secondary text-[28px]">task_alt</span>
+                <span class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">TÜV SÜD</span>
+                <span class="font-label-technical text-[10px] uppercase text-outline">Pressure Equipment Directive
+                  (PED)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- GLOBAL APPLICATION SECTORS OVERVIEW -->
+      <section class="w-full bg-surface-container-lowest dark:bg-slate-900 py-16 transition-colors duration-200">
+        <div class="max-w-7xl mx-auto px-4 lg:px-12 space-y-12">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+            <div>
+              <span
+                class="font-label-technical text-label-technical uppercase tracking-widest text-secondary font-bold">Industrial
+                Deployment</span>
+              <h2
+                class="font-headline-lg text-headline-lg uppercase text-on-surface dark:text-slate-100 tracking-tight mt-1">
+                Sectors Extensively Utilizing SHAIKON Products
+              </h2>
+            </div>
+            <span class="font-label-technical text-label-technical text-outline uppercase">
+              Engineered for Extreme Operating Parameters
+            </span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Sector 1: Petroleum -->
+            <div
+              class="group p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 hover:-translate-y-1 transition-transform">
+              <div class="space-y-3">
+                <div
+                  class="w-12 h-12 rounded-lg bg-surface-container-highest dark:bg-slate-700 flex items-center justify-center text-primary dark:text-primary-fixed">
+                  <span class="material-symbols-outlined text-[28px]">oil_barrel</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Petroleum
+                  Exploration &amp; Refining</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Upstream wellhead chokes, offshore Christmas trees, pipeline ESD valves, and refinery cracking units
+                  operating in H2S sour service (NACE MR0175).
+                </p>
+              </div>
+              <div
+                class="pt-2 text-xs font-label-technical text-secondary uppercase font-semibold flex items-center gap-1">
+                <span class="">Learn Pipeline Specs</span>
+                <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+              </div>
+            </div>
+            <!-- Sector 2: Natural Gas -->
+            <div
+              class="group p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 hover:-translate-y-1 transition-transform">
+              <div class="space-y-3">
+                <div
+                  class="w-12 h-12 rounded-lg bg-surface-container-highest dark:bg-slate-700 flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[28px]">mode_fan</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Natural Gas
+                  &amp; Cryogenic LNG</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Extended bonnet cryogenic gate and ball valves qualified down to -196°C for LNG liquefaction
+                  terminals, regasification ships, and cross-border transport.
+                </p>
+              </div>
+              <div
+                class="pt-2 text-xs font-label-technical text-secondary uppercase font-semibold flex items-center gap-1">
+                <span class="">Learn Cryogenic Specs</span>
+                <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+              </div>
+            </div>
+            <!-- Sector 3: Chemicals -->
+            <div
+              class="group p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 hover:-translate-y-1 transition-transform">
+              <div class="space-y-3">
+                <div
+                  class="w-12 h-12 rounded-lg bg-surface-container-highest dark:bg-slate-700 flex items-center justify-center text-primary dark:text-primary-fixed">
+                  <span class="material-symbols-outlined text-[28px]">science</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Chemicals
+                  &amp; Petrochemicals</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Hastelloy, Inconel, and Monel lined valve geometries resilient against chlor-alkali, corrosive
+                  sulfuric acids, and polymer synthesis lines.
+                </p>
+              </div>
+              <div
+                class="pt-2 text-xs font-label-technical text-secondary uppercase font-semibold flex items-center gap-1">
+                <span class="">Learn Alloy Solutions</span>
+                <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+              </div>
+            </div>
+            <!-- Sector 4: Electric Power -->
+            <div
+              class="group p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 hover:-translate-y-1 transition-transform">
+              <div class="space-y-3">
+                <div
+                  class="w-12 h-12 rounded-lg bg-surface-container-highest dark:bg-slate-700 flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[28px]">bolt</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Electric
+                  Power &amp; Clean Energy</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Supercritical steam isolation, turbine bypass systems, combined cycle cooling circuits, and
+                  high-temperature solar-thermal heat transfer salt circuits.
+                </p>
+              </div>
+              <div
+                class="pt-2 text-xs font-label-technical text-secondary uppercase font-semibold flex items-center gap-1">
+                <span class="">Learn Steam System Specs</span>
+                <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OPERATIONAL GEOGRAPHY: MUMBAI WORKS & GLOBAL SUPPLY CHAIN -->
+      <section class="w-full bg-surface dark:bg-slate-900/40 py-16 transition-colors duration-200">
+        <div class="max-w-7xl mx-auto px-4 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            <!-- Interactive Hubs Breakdown -->
+            <div class="lg:col-span-6 flex flex-col justify-between space-y-6">
+              <div class="space-y-3">
+                <span
+                  class="font-label-technical text-label-technical uppercase tracking-widest text-secondary font-bold">Global
+                  Hub Architecture</span>
+                <h2
+                  class="font-headline-lg text-headline-lg uppercase text-on-surface dark:text-slate-100 tracking-tight">
+                  Headquarters: Mumbai • Worldwide Corridors
+                </h2>
+                <p class=" text-body-md text-on-surface-variant dark:text-slate-300">
+                  Operating out of Mumbai, India, our logistics and testing ecosystem connects primary metallurgical
+                  forging mills with high-demand maritime hubs in the Gulf, Southeast Asia, and Europe.
+                </p>
+              </div>
+              <!-- Key Hub Cards -->
+              <div class="space-y-4">
+                <div
+                  class="p-4 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex items-start gap-4">
+                  <div class="p-3 rounded bg-surface-container dark:bg-slate-700 text-secondary">
+                    <span class="material-symbols-outlined text-[24px]">corporate_fare</span>
+                  </div>
+                  <div class="space-y-1">
+                    <div class="flex items-center gap-2">
+                      <h4 class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">Global
+                        Corporate Headquarters &amp; Heavy Works</h4>
+                      <span
+                        class="px-2 py-0.5 rounded bg-surface-container-high dark:bg-slate-700 text-[10px] font-label-technical uppercase">Mumbai,
+                        India</span>
+                    </div>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                      Plot 42-B, Industrial Corridor, MIDC. Central engineering drawing office, multi-axis machining
+                      floors, 50-tonne overhead gantry bays, and certified test bunker.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="p-4 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex items-start gap-4">
+                  <div class="p-3 rounded bg-surface-container dark:bg-slate-700 text-primary dark:text-primary-fixed">
+                    <span class="material-symbols-outlined text-[24px]">warehouse</span>
+                  </div>
+                  <div class="space-y-1">
+                    <div class="flex items-center gap-2">
+                      <h4 class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">Middle East
+                        Distribution &amp; Consignment Center</h4>
+                      <span
+                        class="px-2 py-0.5 rounded bg-surface-container-high dark:bg-slate-700 text-[10px] font-label-technical uppercase">JAFZA,
+                        UAE</span>
+                    </div>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                      Strategic buffer inventory for Aramco, ADNOC, and PDO maintenance turnarounds. Fast-track dispatch
+                      within 48 hours to GCC sites.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="p-4 rounded-xl bg-surface-container-lowest dark:bg-slate-800 shadow-sm flex items-start gap-4">
+                  <div class="p-3 rounded bg-surface-container dark:bg-slate-700 text-secondary">
+                    <span class="material-symbols-outlined text-[24px]">hub</span>
+                  </div>
+                  <div class="space-y-1">
+                    <div class="flex items-center gap-2">
+                      <h4 class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">European
+                        Technical Procurement Liaison</h4>
+                      <span
+                        class="px-2 py-0.5 rounded bg-surface-container-high dark:bg-slate-700 text-[10px] font-label-technical uppercase">Rotterdam
+                        / Milan</span>
+                    </div>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                      Specialty metallurgy sourcing partner network for Super Duplex, Incoloy 825, and high-purity
+                      titanium raw bar/forgings.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Right: Real Static Map Representation -->
+            <div class="lg:col-span-6 flex flex-col justify-between">
+              <div
+                class="relative w-full h-80 lg:h-full min-h-[380px] rounded-xl overflow-hidden shadow-sm bg-surface-container">
+                <!-- Static Map Container -->
+                <div class="w-full h-full bg-cover bg-center bg-image-4" data-location="MIDC Andheri East Mumbai India">
+                </div>
+                <!-- Map Overlay Card -->
+                <div
+                  class="absolute bottom-4 left-4 right-4 p-4 rounded-lg bg-surface-container-lowest/95 dark:bg-slate-900/95 backdrop-blur-md shadow-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                  <div class="flex items-center gap-3">
+                    <div class="w-3 h-3 rounded-full bg-secondary animate-ping"></div>
+                    <div>
+                      <span class="font-headline-sm text-sm font-bold text-on-surface dark:text-slate-100">MIDC
+                        Industrial Complex • Mumbai HQ</span>
+                      <p class="font-body-sm text-xs text-on-surface-variant dark:text-slate-400">19°07'02.4"N
+                        72°52'19.1"E • Port Logistics Access via Nhava Sheva (JNPT)</p>
+                    </div>
+                  </div>
+                  <a class="px-3 py-1.5 rounded bg-primary-container dark:bg-primary-fixed text-on-primary dark:text-primary font-label-technical text-label-technical uppercase font-bold tracking-wider hover:bg-opacity-90"
+                    data-path="contact-us" href="contact.html">
+                    Plan Site Audit
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CHRONOLOGICAL MILESTONE TIMELINE (2008 - 2025) -->
+      <section class="w-full bg-surface-container-lowest dark:bg-slate-900 py-16 transition-colors duration-200">
+        <div class="max-w-7xl mx-auto px-4 lg:px-12">
+          <div class="text-center max-w-2xl mx-auto space-y-3 mb-16">
+            <span
+              class="font-label-technical text-label-technical uppercase tracking-widest text-secondary font-bold">Evolutionary
+              Path</span>
+            <h2 class="font-headline-lg text-headline-lg uppercase text-on-surface dark:text-slate-100 tracking-tight">
+              Precision Engineering Milestones
+            </h2>
+            <p class=" text-body-md text-on-surface-variant dark:text-slate-400">
+              From a dedicated industrial flow solutions workshop in Mumbai to a global supplier trusted across 45+
+              countries.
+            </p>
+          </div>
+          <!-- Horizontal / Responsive Timeline Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+            <!-- Milestone 1 -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 relative">
+              <div class="space-y-2">
+                <span class="font-display-hero text-headline-lg font-bold text-secondary leading-none">2008</span>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Foundation
+                  in Mumbai</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Established with the core philosophy of prioritizing customer service and delivering specialized flow
+                  solutions for domestic refineries.
+                </p>
+              </div>
+              <div class="pt-2">
+                <span
+                  class="font-label-technical text-label-technical uppercase px-2 py-1 rounded bg-surface-container dark:bg-slate-700 text-outline">First
+                  10,000 sq ft Plant</span>
+              </div>
+            </div>
+            <!-- Milestone 2 -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 relative">
+              <div class="space-y-2">
+                <span
+                  class="font-display-hero text-headline-lg font-bold text-primary dark:text-primary-fixed leading-none">2014</span>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Triple ISO
+                  Standard</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Achieved full accredited integration of ISO9001 (Quality), ISO14001 (Environment), and OHSAS 18001 /
+                  ISO45001 (Safety) frameworks.
+                </p>
+              </div>
+              <div class="pt-2">
+                <span
+                  class="font-label-technical text-label-technical uppercase px-2 py-1 rounded bg-surface-container dark:bg-slate-700 text-outline">QMS
+                  Certification</span>
+              </div>
+            </div>
+            <!-- Milestone 3 -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 relative">
+              <div class="space-y-2">
+                <span
+                  class="font-display-hero text-headline-lg font-bold text-secondary leading-container leading-none">2019</span>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Global
+                  Trading Hub</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Inauguration of international supply-chain division, linking high-pressure forge facilities with
+                  export hubs across GCC and Asia Pacific.
+                </p>
+              </div>
+              <div class="pt-2">
+                <span
+                  class="font-label-technical text-label-technical uppercase px-2 py-1 rounded bg-surface-container dark:bg-slate-700 text-outline">Export
+                  to 25+ Nations</span>
+              </div>
+            </div>
+            <!-- Milestone 4 -->
+            <div
+              class="p-6 rounded-xl bg-surface-container-low dark:bg-slate-800 shadow-sm flex flex-col justify-between space-y-4 relative">
+              <div class="space-y-2">
+                <span
+                  class="font-display-hero text-headline-lg font-bold text-primary dark:text-primary-fixed leading-none">2025</span>
+                <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface dark:text-slate-100">Clean Energy
+                  &amp; Cryo</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-slate-300">
+                  Commissioning of advanced cryogenic and hydrogen testing cell, supporting global energy transitions
+                  and LNG carrier fleets.
+                </p>
+              </div>
+              <div class="pt-2">
+                <span
+                  class="font-label-technical text-label-technical uppercase px-2 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-bold">Class
+                  2500 Qualified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA PROCUREMENT & TPI ENGAGEMENT PANEL -->
+      <section class="w-full bg-surface py-12 transition-colors duration-200">
+        <div class="max-w-7xl mx-auto px-4 lg:px-12">
+          <div
+            class="rounded-2xl bg-primary-container text-on-primary p-8 lg:p-12 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8 relative overflow-hidden">
+            <!-- Background Architectural Accent -->
+            <div
+              class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-secondary-container/10 pointer-events-none blur-3xl">
+            </div>
+            <div class="space-y-3 max-w-2xl relative z-10">
+              <span
+                class="font-label-technical text-label-technical uppercase tracking-widest text-secondary-fixed font-bold">Tender
+                Specifications &amp; Plant Inspections</span>
+              <h3 class="font-headline-lg text-headline-lg uppercase font-bold tracking-tight">
+                Collaborate With SHAIKON On Your Next Major Project
+              </h3>
+              <p class=" text-body-md text-surface-container-high leading-relaxed">
+                Our engineering desk in Mumbai coordinates with your QA team and third-party inspectors to prepare
+                comprehensive documentation packages (MTC, WPS/PQR, ITP).
+              </p>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center gap-4 relative z-10 w-full lg:w-auto">
+              <a class="w-full sm:w-auto px-6 py-3 rounded-lg bg-secondary-container text-on-primary font-label-md text-label-md uppercase tracking-wider font-bold shadow-md hover:bg-secondary transition-colors text-center"
+                data-path="request-a-quote" href="contact.html">
+                Submit RFQ Document
+              </a>
+              <a class="w-full sm:w-auto px-6 py-3 rounded-lg bg-surface-container-lowest text-primary dark:text-primary font-label-md text-label-md uppercase tracking-wider font-bold shadow-sm hover:bg-surface-container transition-colors text-center"
+                data-path="catalogue" href="products.html">
+                Download QA Manual
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="w-full bg-surface-container-low border-t border-outline-variant pt-16 pb-8 text-on-surface">
+    <div class="max-w-7xl mx-auto px-4 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-12 border-b border-outline-variant">
+        <div class="lg:col-span-2 flex flex-col gap-4">
+          <div class="flex items-center gap-3"><img class="h-10 w-auto object-contain" src="assets/images/img-41.png"
+              alt="SHAIKON"><span
+              class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold">SHAIKON
+              ENGINEERING</span></div>
+          <p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Heavy industrial flow assurance,
+            precision forged valves, and global procurement systems engineered to ASME, API, and DIN standards for harsh
+            marine, energy, and process environments.</p>
+          <div class="flex flex-wrap items-center gap-2 pt-2"><span
+              class="px-2 py-1 rounded bg-surface-container text-on-surface font-label-technical text-label-technical border border-outline-variant">ISO
+              9001:2015</span><span
+              class="px-2 py-1 rounded bg-surface-container text-on-surface font-label-technical text-label-technical border border-outline-variant">ISO
+              14001:2015</span><span
+              class="px-2 py-1 rounded bg-surface-container text-on-surface font-label-technical text-label-technical border border-outline-variant">ISO
+              45001:2018</span><span
+              class="px-2 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-technical text-label-technical border border-secondary">API
+              6D CERTIFIED</span></div>
+        </div>
+        <div class="flex flex-col gap-3"><span
+            class="font-label-technical text-label-technical uppercase tracking-widest text-primary font-bold">Division
+            Architecture</span>
+          <ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+            <li class="hover:text-on-surface transition-colors"><a data-path="products" href="products.html"
+                class="">High-Pressure Ball Valves</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="products" href="products.html"
+                class="">Triple-Offset Butterfly Valves</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="products" href="products.html"
+                class="">Cryogenic Gate &amp; Globe</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="trading" href="trading.html"
+                class="">Global Raw Material Sourcing</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="applications" href="applications.html"
+                class="">Offshore Subsea Assemblies</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3"><span
+            class="font-label-technical text-label-technical uppercase tracking-widest text-primary font-bold">Technical
+            Portals</span>
+          <ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+            <li class="hover:text-on-surface transition-colors"><a data-path="catalogue" href="products.html"
+                class="">Engineering PDF Library</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="technical-specifications"
+                href="products.html" class="">Material Test Certs (MTC)</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="compliance-standards" href="about.html"
+                class="">QA/QC Standards &amp; Testing</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="request-a-quote" href="contact.html"
+                class="">Procurement Tender Portal</a></li>
+            <li class="hover:text-on-surface transition-colors"><a data-path="trading" href="trading.html"
+                class="">Supply Chain Traceability</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3"><span
+            class="font-label-technical text-label-technical uppercase tracking-widest text-primary font-bold">Global
+            Headquarters</span>
+          <address class="not-italic font-body-sm text-body-sm text-on-surface-variant flex flex-col gap-1.5"><span
+              class="">Plot 42-B, Industrial Corridor,</span><span class="">MIDC Industrial Area, Andheri
+              (E),</span><span class="">Mumbai, MH 400093, India</span><span
+              class="pt-1 font-semibold text-on-surface">T: +91 22 6890-4100</span><span class="">E:
+              trade@shaikon-eng.com</span></address>
+        </div>
+      </div>
+      <div
+        class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant">
+        <span class="font-label-technical text-label-technical text-outline">© 2025 SHAIKON ENGINEERING COMPANY. ALL
+          RIGHTS RESERVED. REGISTERED DEFENSE &amp; PROCESS SUPPLIER.</span>
+        <div class="flex items-center gap-6 font-label-technical text-label-technical"><a
+            class="hover:text-on-surface transition-colors" data-path="contact-us" href="contact.html">PRIVACY
+            PROTOCOL</a><a class="hover:text-on-surface transition-colors" data-path="contact-us"
+            href="contact.html">TERMS OF SUPPLY</a><a class="hover:text-on-surface transition-colors"
+            data-path="contact-us" href="contact.html">QUALITY MANUAL</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>(function () { const toggleBtn = document.getElementById('theme-toggle-btn'); const statusLabel = document.getElementById('theme-status-label'); if (toggleBtn) { toggleBtn.addEventListener('click', function () { const root = document.documentElement; const isDark = root.classList.toggle('dark'); if (statusLabel) { statusLabel.textContent = isDark ? 'Dark' : 'Light'; } }); } })();</script>
+
+
+
+</body>
+
+</html>
